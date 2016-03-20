@@ -1,0 +1,274 @@
+body {
+  	background-color: #f2f2f2;
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+header {
+	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.9);
+    opacity: 0.96;
+}
+
+a#admin_logo {
+	background-color: #ff8309;
+	height: 60px;
+}
+
+a.logo img {
+	margin-top: 11px;
+	width: 100px;
+}
+
+.main-header nav {
+	height: 60px;
+}
+a.sidebar-toggle.admin-toggler {
+	color: #5c5c5c;
+  	font-size: 17px;
+    padding-top: 21px;
+    margin-left: -50px;
+    position: absolute;
+}
+
+a.sidebar-toggle.admin-toggler:hover {
+	background-color: #ECF0F5;
+}
+
+div.navbar-custom-menu a.dropdown-toggle {
+	padding-top: 25px;	
+}
+
+div.navbar-custom-menu i{
+	font-size: 15px;
+    margin-top: 7px;
+}
+
+div.navbar-custom-menu span {
+	margin-top: 15px;
+}
+
+ul.sidebar-menu > li{
+	height: 80px;
+	width: 228px;
+	padding: 0px;
+	border-top: 1px solid #ECF0F5;
+}
+
+ul.sidebar-menu > li > a {
+	height: 80px;
+	width: 230px;
+	padding: 0px;
+} 
+
+
+ul.sidebar-menu > li:hover,
+ul.sidevar-menu > li.active {
+	background-color: white;
+	width: 230px;
+
+}
+
+/*Css for main area*/
+.small-box > .inner {
+	padding-left: 50px;
+}
+
+div.icon {
+	margin-top: 20px;
+}
+
+
+
+/*=====================================CSS style for Business Tab==========================*/
+
+div.business-form {
+	margin: auto;
+	padding-top: 50px;
+	width: 85%;
+}
+
+form#profile-form {
+	padding: 30px;
+	background-color: white;
+}
+
+form#profile-form div.form-group {
+	text-align: left;
+}
+
+form#profile-form div.form-group input {
+	border-radius: 5px;
+
+}
+
+span.social-icon {
+	left: 10px;
+	margin-top: 10px;
+	position: absolute;
+	z-index: 6;
+}
+
+span.social-icon.faceboo {
+	color: teal;
+}
+
+span.social-icon.twitter {
+	color: violet
+}
+
+input#facebook, input#twitter {
+	padding-left: 30px;
+}
+
+/*=========================CSS for Truck tab====================================*/
+a#add-truck-btn {
+	background-color: #FD8611;
+	border-color: #FD8611;
+	width: 140px;
+}
+
+form#truck-search {
+	height: 34px;
+    margin: 0 0 0 150px;
+	width: 40%;
+}
+
+/*=========================CSS for Profile Tab======================================*/
+
+div.profile-form {
+	width: 85%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+/*===========================CSS for settings Tab=======================*/
+
+div.settings-form {
+	width: 500px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+form#settings-form {
+	padding: 30px;
+	background-color: white;
+}
+
+div.remember {
+	display: inline-block !important;
+	width: 100%;
+}
+
+li.prev a,
+li.next a {
+	height: 34px;
+    padding-top: 7px;
+}
+
+div#sample_3_length.dataTables_length {
+	display: none;
+}
+
+div.portlet.box.green {
+	border: 0px;
+}
+
+div.portlet-title {
+	background-color: transparent;
+}
+
+div#new-truck-div div.form-group.clearfix input,
+div#new-truck-div div.form-group.clearfix textarea {
+	border-radius: 5px;
+}
+
+/*==================Responsive Style for several width=========*/
+/*---business page----*/
+@media(max-width: 542px) {
+	div.business-form,
+	div.profile-form {
+		width: 100%;
+	}
+}
+
+/*---profile page----*/
+
+
+@media (min-width: 767px) {
+	section#left-sidebar.sidebar {
+		padding-top: 30px !important;
+	}
+
+	section#main-area.content-header {
+		padding-top: 30px !important;
+	}
+
+
+}
+
+@media (max-width: 767px) {
+
+	li.dropdown.user.user-menu a.dropdown-toggle{
+		padding-top: 30px;
+	}
+
+	section#left-sidebar.sidebar {
+		padding-top: 30px !important;
+	}
+
+	section#main-area.content-header {
+		padding-top: 30px !important;
+	}
+
+	div.settings-form {
+		width: 100%;
+		margin: auto;
+		padding-top: 50px;
+	}
+
+	.skin-blue .main-header .navbar a.sidebar-toggle.admin-toggler {
+		/*margin-top: -65px;*/
+		margin-left: 0px;
+    	position: absolute;
+    	color: #6c6c6c;
+	}
+
+	.skin-blue .main-header .navbar a.sidebar-toggle.admin-toggler:hover {
+		background-color: #ECF0F5; 
+	}
+
+	div#sample_3_filter.dataTables_filter {
+/*		left: 120px;
+    	position: absolute;
+    	top: -96px;*/
+	}
+
+	form#truck-search {
+		width: 50%;
+		margin-left: 120px;
+	}
+
+	a#add-truck-btn {
+		width: 105px;
+	}
+
+
+}
+
+@media (max-width: 750px) {
+	div.content-wrapper {
+		margin-top: 20px;
+	}	
+}
+
+@media (max-width: 973px) {
+	div.navbar-custom-menu span {
+		margin-top: 15px;
+	}
+	div.navbar-custom-menu i{
+		font-size: 15px;
+	    margin-top: 15px;
+	}
+}

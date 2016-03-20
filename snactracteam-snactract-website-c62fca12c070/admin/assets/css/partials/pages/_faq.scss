@@ -1,0 +1,32 @@
+#faq{
+	.panel{
+		box-shadow:0 1px 1px rgba(0, 0, 0, 0.05);
+	}
+	.panel-default>.panel-heading{
+		background:transparent;
+		border:0 none;
+	}
+	.panel-group {
+		.panel{
+			border:0 none;
+			margin-bottom: 30px;
+		}
+		.panel-title{
+			color: rgb(44, 51, 57);
+			font-weight: 600;
+			font-size: 20px;
+		}
+		.panel:last-child{
+			margin-bottom: 0;
+		}
+		.panel-title:hover{
+			color: #7fa662;
+		}
+	}
+	.panel-body{
+		background:rgb(241, 241, 241);
+	}
+	.panel-default>.panel-heading+.panel-collapse .panel-body{
+		border-top-color: rgb(182, 182, 182);
+	}
+}

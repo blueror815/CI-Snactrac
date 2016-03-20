@@ -1,0 +1,27 @@
+/* modules */
+@import "modules/mixins";
+@import "modules/elements";
+
+/* config variables */
+@import "partials/config";
+
+/* vendor */
+@import "../bootstrap/bootstrap.min.css";
+/* commented out by naveeed -- @import "bootstrap/bootstrap_overrides"; */
+
+/* layout */
+@import "partials/layout";
+
+/* pages */
+@import "partials/pages/about_us";
+@import "partials/pages/blog";
+@import "partials/pages/coming_soon";
+@import "partials/pages/contact";
+@import "partials/pages/faq";
+@import "partials/pages/features";
+@import "partials/pages/index";
+@import "partials/pages/portfolio";
+@import "partials/pages/sign";
+@import "partials/pages/dashboard";
+
+

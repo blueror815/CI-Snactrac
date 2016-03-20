@@ -1,0 +1,163 @@
+#comingsoon{
+	margin-top:180px;
+	
+	.countdown {
+		padding-bottom: 120px;
+		border-bottom: 1px solid rgb(192, 194, 197);
+		box-shadow: 0px 2px 1px 0px rgb(255, 255, 255);
+		.left{
+			h1{
+				color: rgb(51, 51, 51);
+				font-weight: 600;
+				margin-top: 0;
+			}
+			p{
+				margin-top: 20px;
+				line-height: 25px;
+				color: rgb(85, 85, 85);
+				font-size: 17px;
+			}
+		}
+		.figure {
+			float: left;
+			margin: 0 13px;
+			.square {
+				width: 88px;
+				height: 88px;
+				border-radius: 6px;
+				border: 1px solid rgb(147, 199, 98);
+				position: relative;
+				box-shadow: 0px 0px 6px -1px rgb(147, 199, 98);
+				span{
+					color: rgb(57, 67, 80);
+					font-size: 40px;
+					font-weight: 600;
+					position: absolute;
+					top: 14px;
+					display: block;
+					width: 100%;
+					text-align: center;
+				}
+			}
+			label{
+				display: block;
+				color: rgb(122, 125, 128);
+				font-weight: 400;
+				font-size: 12px;
+				margin-top: 5px;
+				text-align: center;
+			}
+		}
+	}
+
+	.subscribe{
+		margin-top: 50px;
+		text-align: center;
+		form{
+			margin-bottom: 20px;
+		}
+		.form-group{
+			float: none;
+			display: inline-block;
+			margin-bottom: 0;
+		}
+		.follow{
+			margin: 0 auto;
+			width: 35%;
+
+			@media (min-width: 979px) and (max-width: 1200px) {
+				width: 38%;
+			}
+
+			@media (min-width: 768px) and (max-width: 979px) {
+				width: 48%;
+			}
+
+			@media (max-width: 767px) {
+				width: 100%;
+				text-align:center;
+			}
+
+			strong {
+				float: left;
+				margin: 5px 16px 0 0;
+
+				@media (max-width: 767px) {
+					float: none;
+					margin: 0 0 10px 0;
+					display: block;
+				}
+			}
+
+			.social {
+				float: left;
+
+				@media (max-width: 767px) {
+					float: none;
+				}
+				
+				a {
+					float: left;
+					text-align: center;
+					width: 33px;
+					margin: 0 6px;
+					height: 33px;
+					background:rgba(255,255,255,0.1);
+					border-radius:100%;
+					-webkit-transition: background linear .1s;
+					-moz-transition: background linear .1s;
+					-o-transition: background linear .1s;
+					transition: background linear .1s;
+
+					@media (max-width: 767px) {
+						float: none;
+						display: inline-block;
+					}
+				}
+				a:last-child{
+					margin-right: 0;
+				}
+				i{
+					font-size: 20px;
+					margin-top: 7px;
+					display: inline-block;
+					color: #fff;
+				}
+				.facebook{
+					background:#3b5998;
+				}
+				.twitter{
+					background:#00abf0;
+				}
+				.linkedin{
+					background:#006599;
+				}
+				.pinterest{
+					background:#cb2027;
+				}
+				.gplus{
+					background:#000;
+				}
+				.github{
+					background:#edce44;
+				}
+			}
+		}
+	}
+}
+
+.footer-comingsoon{
+	text-align:center;
+	margin-top:130px;
+	padding:30px 0;
+	.row:first-child{
+		border:0 none;
+		padding-bottom:0;
+		box-shadow:none;
+		margin-bottom: 0;
+	}
+	p{
+		color:#fff !important;
+		font-size:15px !important;
+	}
+}

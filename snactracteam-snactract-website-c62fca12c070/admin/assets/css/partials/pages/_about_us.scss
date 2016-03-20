@@ -1,0 +1,38 @@
+#about{
+	.intro{
+		margin-bottom: 22px;
+		h3{
+			margin-top: 0;
+			font-size: 24px;
+			line-height: 31px;
+		}
+	}
+	.block:first-child{
+		.text{
+			font-size: 17px;
+		}
+	}
+	.teammate{
+		text-align: center;
+
+		@media (max-width: 767px) {
+			margin-bottom: 30px;
+			text-align: center;
+		}
+		
+		img{
+			display: inline-block;
+			margin-bottom: 14px;
+		}
+		h5,p{
+			text-align: left;
+		}
+		h5{
+			font-weight: 400;
+			font-size: 16px;
+		}
+		p{
+			font-weight: 400;
+		}
+	}
+}
